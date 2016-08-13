@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Simplest Timer",
+  "version": "1.0.4",
+  "description": "Simple countdown timer.",
+  "icons": {
+    "64": "images/timer-64.png"
+  },
+  "permissions": [ "alarms" ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/timer-19.png",
+    "default_title": "Simplest Timer"
+  },
+  "background": {
+    "page": "index.html"
+  },
+  "applications": {
+    "gecko": {
+      "id": "timer-extension@mozilla.firefox"
+    }
+  }
+}
